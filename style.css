@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap");
+*,
+html {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: #fafafa;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.current__weather {
+  text-align: center;
+  border-bottom: 1px solid #707075;
+  height: 10vh;
+  margin-top: 2rem;
+}
+
+.current__weather > input {
+  margin-top: 1rem;
+}
+.current__weather > #text__input {
+  width: 60%;
+  outline: none;
+  padding: 0.3rem;
+  background-color: white;
+  border: 1px solid gray;
+}
+.current__weather > #search__btn {
+  padding: 0.4rem 1rem;
+  color: white;
+  text-transform: uppercase;
+  background-color: gray;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.current__weather > #search__btn:hover {
+  background-color: #707075;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* WEATER DISPLAY */
+.weather__message {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#weather__display {
+  padding-top: 1rem;
+}
+.weather__display--main {
+  margin-top: 2rem;
+  border-bottom: 1px solid #707075;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.weather__details > p {
+  font-size: 3.4rem;
+}
