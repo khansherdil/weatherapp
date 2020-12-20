@@ -74,6 +74,45 @@ header nav {
   padding-bottom: 2rem;
 }
 
-.weather__details > p {
+.weather__details > .current__temp {
   font-size: 3.4rem;
+}
+
+.forecast__weather {
+  display: flex;
+  flex-direction: column;
+}
+
+.forecast__weather > h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.forecast__main {
+  padding: 1.5rem;
+  border-bottom: 1px solid #bebdb8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forecast__main--right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.forecast__main--right > p > span {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+#extra__info,
+#extra__info--hide {
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  width: 30%;
 }
